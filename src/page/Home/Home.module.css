@@ -1,0 +1,16 @@
+.image {
+  margin-top: 30px;
+  width: 450px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 770px) {
+  .image {
+    margin-top: 10px;
+  }
+}
